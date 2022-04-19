@@ -18,7 +18,8 @@ void display_complex_number(complex c)
 		printf("%d + %di\n", c.re, c.im);
 	}
 	else
-			printf("%d + i\n", c.re);
+		if (c.im == -1)
+			printf("%d - i\n", c.re);
 		else
 		printf("%d - %di\n", c.re, (c.im * -1));
 }
