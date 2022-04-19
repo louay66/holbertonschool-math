@@ -10,6 +10,10 @@ void display_complex_number(complex c)
 	{
 		printf("%d\n", c.re);
 	}
+	else if (c.im > 0)
+	{
+		printf("%d + %di\n", c.re, c.im);
+	}
 	else
-	printf("%d + %di\n", c.re, c.im);
+		printf("%d + %di\n", c.re, c.im);
 }
