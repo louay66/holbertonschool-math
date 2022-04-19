@@ -15,5 +15,5 @@ void display_complex_number(complex c)
 		printf("%d + %di\n", c.re, c.im);
 	}
 	else
-		printf("%d + %di\n", c.re, c.im);
+		printf("%d - %di\n", c.re, c.im);
 }
